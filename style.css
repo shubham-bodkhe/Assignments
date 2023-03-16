@@ -1,0 +1,122 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #413543;
+    border-radius: 8px;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+}
+
+.nav-items ul{
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem; 
+    list-style-type: none;
+    margin-top: 0.6rem;
+   
+}
+
+
+.nav-link{
+   text-decoration: none;
+   color: #FEFAE0;
+   font-size: 1rem;
+}
+
+#cart{
+    position: absolute;
+    right:5rem
+}
+
+
+.product-details{
+
+text-align: center;
+position: absolute;
+left:20%;
+
+
+}
+.product-details form{
+   
+    border: 1px solid grey;
+    width: 32rem;
+    text-align: left;
+    padding: 2rem 3rem;
+    height: 13rem;
+}
+.product-details h1{
+    color: #473C33;
+    text-align: center;
+}
+
+.form-field{
+    margin-top: 1rem;
+}
+
+.form-field textarea{
+    margin-left: 7rem;
+}
+
+.add-btn{
+    background-color: #413543;
+    border-radius: 2px;
+    padding: 0.5rem 2rem ;
+    position: absolute;
+    right: 2rem;
+    color: #FEFAE0;
+    font-size: 1rem;
+    font-weight: 600;
+cursor: pointer;
+
+}
+
+
+/* Cart Styling */
+
+.head-section{
+    text-align: center;
+}
+
+.cards{
+    position: absolute;
+    margin: 2rem;
+    display: inline;
+    left: 5%;
+    width: 64rem;
+    
+}
+
+.card{
+    width: 10rem;
+    background-color: #ECF2FF;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px #393053;
+    height: 10rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+    margin: 1rem;
+    display: inline-block;
+    color: #1C82AD;
+}
+
+.heading {
+    color: #473C33;
+    /* text-decoration: underline; */
+   
+}
+
+.head-section hr{
+    height: 5px;
+}
